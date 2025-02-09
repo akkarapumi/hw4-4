@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+
+button {
+    background-color: pink;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+
+/* โครงสร้างข้อสอบ */
+#quiz-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+#quiz-container div {
+    margin-bottom: 20px;
+}
+
+#quiz-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#quiz-container button {
+    margin: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+/* ผลลัพธ์ */
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ตัวจับเวลา */
+#timer {
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+}
+
+/* ปุ่มเริ่มทำใหม่ */
+#restart-container {
+    margin-top: 20px;
+}
